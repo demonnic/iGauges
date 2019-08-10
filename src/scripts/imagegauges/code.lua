@@ -15,7 +15,7 @@ demonnic.iGauge = demonnic.iGauge or Geyser.Container:new({
 function demonnic.iGauge:setType(bartype)
   self.bartype = bartype
 	self.front:setStyleSheet([[
-	  border-image: url(]]..getMudletHomeDir()..'/igauges-1.0/'..self.bartype..[[.png);
+	  border-image: url(]]..getMudletHomeDir()..'/@PKGNAME@/'..self.bartype..[[.png);
 	]])
 end		
 		
